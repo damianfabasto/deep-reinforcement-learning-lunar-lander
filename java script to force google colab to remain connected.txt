@@ -1,0 +1,11 @@
+function ClickConnect3(){
+console.log("Working"); 
+document.getElementsByClassName("view-line")[0].click() 
+}
+setInterval(ClickConnect3,60000)
+
+function ClickConnect(){
+    console.log("Clicked on connect button"); 
+    document.querySelector("colab-connect-button").click()
+}
+setInterval(ClickConnect,30000)
